@@ -1,0 +1,163 @@
+body {
+    font-family: 'Roboto';
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 50px;
+    background: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0 100px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    gap: 20px
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    background: #1F2937;
+    color: white;
+    display: flex;
+    padding: 60px 100px;
+    justify-content: space-between;
+}
+
+.herotext {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mainherotext {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.secondaryherotext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.download {
+    background: #3882F6;
+    color: white;
+    flex: 0 0 auto;
+    padding: 8px 16px;
+    border-radius: 8px;
+    width: 100px;
+}
+
+.heroimage {
+    max-width: 200px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px;
+    gap: 50px;
+}
+
+.informationheader {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    text-align: center;
+    gap: 10px;
+    color: #1F2937;
+}
+
+.quote {
+    padding: 50px 300px;
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quotetext {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quoteauthor {
+    font-size: 30px;
+    color: #1F2937;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.downloadpromo {
+    margin: 50px 250px;
+    padding: 40px 60px;
+    background: #3882F6;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+}
+
+.calltoaction {
+    display: flex;
+    flex-direction: column;
+}
+
+.calltoactionheader {
+    font-weight: bold;
+    font-size: large;
+}
+
+.calltoactiondownload {
+    background: #3882F6;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border-color: #E5E7EB;
+    width: 100px;
+}
+
+.footer {
+    padding: 10px 0;
+    background: #1F2937;
+    color: #F9FAF8; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
